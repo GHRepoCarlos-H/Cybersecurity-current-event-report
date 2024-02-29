@@ -1,0 +1,29 @@
+                                  SolarWinds Supply Chain Attack
+
+Type of Attack: The SolarWinds supply chain attack was a highly sophisticated cyber espionage campaign that targeted the software supply chain of SolarWinds, a prominent IT management software provider. Attackers inserted malicious code into SolarWinds' Orion software updates, which were then distributed to thousands of organizations worldwide, these are the attacks used:
+
+Infiltration of SolarWinds Infrastructure: The attackers gained unauthorized access to SolarWinds' internal systems and software development infrastructure. This likely involved various techniques, such as phishing attacks, exploiting vulnerabilities in external-facing systems, or compromising employee credentials.
+
+Insertion of Malicious Code: Once inside SolarWinds' infrastructure, the attackers inserted malicious code into the legitimate software builds of SolarWinds' Orion platform. This code was carefully crafted to be stealthy and evade detection by security mechanisms.
+
+Compromised Software Updates: The malicious code was then incorporated into the legitimate software updates of SolarWinds' Orion platform. These updates, which appeared genuine and were signed with valid digital signatures, were then distributed to SolarWinds' customers through the official update channels.
+
+Widespread Distribution: Thousands of organizations worldwide, including government agencies, private companies, and critical infrastructure providers, downloaded and installed the compromised software updates. Since the updates were distributed through legitimate channels and appeared to be signed by SolarWinds, they were widely trusted and installed without suspicion.
+
+Exploitation of Backdoor: Once installed on the victims' systems, the compromised Orion software acted as a backdoor, allowing the attackers to gain persistent access to the targeted networks. The attackers could then exfiltrate sensitive data, move laterally within the network, and execute additional malicious activities.
+
+Long-Term Espionage Campaign: The SolarWinds supply chain attack was part of a long-term espionage campaign orchestrated by a sophisticated threat actor, likely a nation-state actor with significant resources and expertise. The attackers remained undetected for an extended period, allowing them to conduct reconnaissance, gather intelligence, and carry out espionage activities without raising suspicion.
+
+Discovery of Vulnerability: The vulnerability in SolarWinds' software update mechanism was discovered by cybersecurity researchers in December 2020 after several organizations reported unusual activity on their networks. Investigation revealed that the Orion software updates had been compromised to deliver a backdoor known as "Sunburst" or "Solorigate."
+
+Exploitation of Vulnerability: The attackers were able to exploit the vulnerability by infiltrating SolarWinds' development environment and injecting malicious code into the software build process. This allowed the attackers to distribute tainted software updates to SolarWinds' customers, granting them access to sensitive data and networks.
+
+Preventative Measures: To mitigate the risk of supply chain attacks like SolarWinds in the future, organizations can take several proactive measures, including:
+
+Implementing robust software development and supply chain security practices, such as code signing, integrity checks, and secure build environments.
+
+Conducting thorough security assessments and third-party risk assessments of software vendors and suppliers.
+
+Monitoring network traffic and behavior for signs of suspicious activity, such as unusual data exfiltration or communication with malicious domains.
+
+Enhancing threat intelligence sharing and collaboration efforts within the cybersecurity community to identify and respond to emerging threats more effectively.

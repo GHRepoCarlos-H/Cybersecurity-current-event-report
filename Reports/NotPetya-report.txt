@@ -1,0 +1,20 @@
+                                     NotPetya Cyberattack
+
+Type of Attack: The NotPetya cyberattack was a sophisticated cyberattack that leveraged a modified version of the Petya ransomware. However, unlike traditional ransomware attacks, NotPetya was designed to spread rapidly across networks and cause widespread disruption rather than solely focusing on extortion for financial gain.
+
+Discovery of Vulnerability: The vulnerability exploited in the NotPetya attack was initially discovered in a Ukrainian accounting software called M.E.Doc. Attackers compromised the software's update mechanism such as packages made to deliver bug fixes and updates to the system, allowing them to distribute the malware to thousands of organizations that relied on M.E.Doc for financial and accounting services.
+
+Exploitation of Vulnerability: Once NotPetya infected a single computer within a network, it used multiple propagation techniques suck as:
+
+EternalBlue Exploit: NotPetya leveraged the EternalBlue exploit, which was originally developed by the U.S. National Security Agency (NSA) and later leaked by the hacker group Shadow Brokers. EternalBlue exploits a vulnerability in the Windows Server Message Block (SMB) protocol, allowing malware to spread laterally across unpatched Windows systems.
+
+Credential Theft: NotPetya was capable of stealing credentials from infected machines, including administrative credentials. These stolen credentials were then used to facilitate further lateral movement within the network, allowing the malware to infect additional machines and escalate privileges.
+
+PSExec Tool: NotPetya also utilized the PSExec tool, a legitimate Windows administrative tool commonly used for executing processes on remote systems. By leveraging PSExec, NotPetya was able to remotely execute its payload on other machines within the network, further facilitating its spread.
+
+Windows Management Instrumentation (WMI): NotPetya exploited Windows Management Instrumentation (WMI), a Windows management technology that allows administrators to perform various tasks on remote computers. By abusing WMI, NotPetya could execute commands and payloads on remote systems, aiding in its propagation to spread laterally across the network, including the exploitation of vulnerabilities in Microsoft's Windows operating system, as well as the use of stolen administrative credentials. This allowed the malware to rapidly infect and encrypt files on numerous computers, causing widespread disruption and financial losses.
+
+Preventative Measures: To prevent similar attacks in the future, organizations can implement several security measures, including regular software updates and patch management to address known vulnerabilities promptly.
+Implementing robust network segmentation and access controls to limit the spread of malware within a network.
+Enhancing employee cybersecurity awareness and training to recognize phishing attempts and other social engineering tactics used by attackers.
+Implementing multi-layered security defenses, such as firewalls, intrusion detection systems (IDS), and endpoint protection solutions, to detect and mitigate threats at various points of entry.
